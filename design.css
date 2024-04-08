@@ -1,0 +1,137 @@
+/* body ----------------------------------------------- */
+body {
+    margin: 0px 100px;
+}
+h4 {
+    color: grey;
+}
+
+/* intro ----------------------------------------------- */
+.intro-text-section h1 {
+    color: grey;
+    font-size: xx-large;
+}
+
+.intro-text-section li {
+    color: grey;
+}
+
+.intro-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 40px 0px;
+    border-radius: 15px;
+    background-color: rgba(255, 228, 196, 0.733);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition-duration: 1s;
+}
+.intro-section:hover {
+    background-color: azure;
+}
+
+.intro-image-section img {
+    width: 240px;
+    height: 270px;
+}
+
+/* about ----------------------------------------------- */
+.about-img-section img {
+    width: 310px;
+    height: 300px;
+}
+
+.about-text-section h1 {
+    font-size: xx-large;
+}
+
+.about-text-section p {
+    color: grey;
+}
+
+.about-text-section {
+    width: 300px;
+}
+
+.about-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px 0px;
+    padding: 15px 10px;
+    border-radius: 15px;
+    background-color: rgb(172, 222, 241);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition-duration: 1s;
+}
+.about-section:hover {
+     background-color:honeydew;
+}
+
+/* wahat I Do ----------------------------------------------- */
+.whatIDo-card-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.whatIDo-section {
+    background-color: rgba(255, 192, 203, 0.721);
+    margin: 40px 0px;
+    padding: 20px 12px;
+    margin: 40px 0px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition-duration: 1s;
+}
+.whatIDo-section:hover {
+    background-color: lavenderblush;
+}
+
+.whatIDo-card-section div {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    width: 220px;
+    height: 180px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.whatIDo-card1-section:hover {
+   background-color: burlywood;
+   transition-duration: 1s;
+}
+.whatIDo-card2-section:hover {
+    background-color: skyblue;
+    transition-duration: 1s;
+ }
+ .whatIDo-card3-section:hover {
+    background-color:rosybrown;
+    transition-duration: 1s;
+ }
+
+@media only screen and (max-width: 620px) {
+    .intro-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .whatIDo-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .whatIDo-card-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    body {
+        margin: 40px 10px;
+    }
+}
